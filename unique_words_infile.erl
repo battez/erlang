@@ -22,6 +22,7 @@
 % the main calling function, reads the file and then
 % goes thru it using process(), tallying an output list:
 run(Myfile) -> 
+	io:fwrite("Processing, please wait...~n", []),
 	String = readlines(Myfile),
 	process(String, []).
 
