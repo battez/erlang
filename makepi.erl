@@ -1,5 +1,5 @@
 % approximate Pi to a certain Needed Precision using Leibniz formula
-% usage: run makepi:getpi() in Erlang shell.
+% usage: run makepi:get_pi() in Erlang shell.
 -module(makepi).
 -author("John Luke Barker").
 -date({2015, 12, 08}).
@@ -52,21 +52,5 @@ get_pi(Denom, Sign, ResultSoFar)  ->
 		io:format("Approximated: ~.5f~n", [Result])
 		
 	end.
-
-
-
-
-
-
-	
-
-
-
-
-
-
-
-
-
 
 
